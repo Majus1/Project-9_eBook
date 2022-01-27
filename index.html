@@ -63,12 +63,14 @@
                     </h1>
                     <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy now</a>
+                    <!-- Open sidebar / offcanvas -->
+                    <a class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"
+                        href="#sidebar">Explore my other books</a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <img class="img-fluid" src="assets/ebook-cover.png" alt="eBook-cover">
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- pricing plans -->
@@ -397,6 +399,19 @@
                     <button class="btn btn-primary">submit</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other books</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis labore mollitia, atque omnis saepe
+                quo qui corporis magnam eaque expedita voluptatum architecto culpa blanditiis. Ipsam enim aperiam saepe
+                quas amet!</p>
         </div>
     </div>
 
